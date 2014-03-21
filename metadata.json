@@ -61,7 +61,15 @@
 			"metadata": {
 				"configuration": {
 					"extensions": {
-						"doctrine": "Kdyby\\Doctrine\\DI\\DoctrineExtension"
+						"doctrine": "Kdyby\\Doctrine\\DI\\OrmExtension"
+					},
+					"doctrine": {
+						"user": "root",
+						"password": "pass",
+						"dbname": "sandbox",
+						"metadata": {
+							"App": "%appDir%"
+						}
 					}
 				}
 			}
