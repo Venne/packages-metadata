@@ -1,27 +1,7 @@
 {
-	"nette/nette": [
-		{
-			"versions": ["dev-master", "v2.1.2", "2.1.2"],
-			"metadata": {
-				"relativePublicPath": "/client-side"
-			}
-		}
-	],
-	"kdyby/translation": [
-		{
-			"versions": ["dev-master", "v1.1.2", "1.1.2"],
-			"metadata": {
-				"configuration": {
-					"extensions": {
-						"translation": "Kdyby\\Translation\\DI\\TranslationExtension"
-					}
-				}
-			}
-		}
-	],
 	"kdyby/annotations": [
 		{
-			"versions": ["dev-master", "v2.0.2", "2.0.2", "v2.0.1", "2.0.1"],
+			"version": "*",
 			"metadata": {
 				"configuration": {
 					"extensions": {
@@ -33,7 +13,7 @@
 	],
 	"kdyby/console": [
 		{
-			"versions": ["dev-master", "v2.0.1", "2.0.1"],
+			"version": "*",
 			"metadata": {
 				"configuration": {
 					"extensions": {
@@ -43,9 +23,21 @@
 			}
 		}
 	],
+	"kdyby/doctrine": [
+		{
+			"version": "*",
+			"metadata": {
+				"configuration": {
+					"extensions": {
+						"doctrine": "Kdyby\\Doctrine\\DI\\OrmExtension"
+					}
+				}
+			}
+		}
+	],
 	"kdyby/events": [
 		{
-			"versions": ["dev-master", "v2.0.2", "2.0.2"],
+			"version": "*",
 			"metadata": {
 				"configuration": {
 					"extensions": {
@@ -55,29 +47,41 @@
 			}
 		}
 	],
-	"kdyby/doctrine": [
+	"kdyby/translation": [
 		{
-			"versions": ["dev-master", "v1.1.0", "1.1.0"],
+			"version": "*",
 			"metadata": {
 				"configuration": {
 					"extensions": {
-						"doctrine": "Kdyby\\Doctrine\\DI\\OrmExtension"
-					},
-					"doctrine": {
-						"user": "root",
-						"password": "pass",
-						"dbname": "sandbox",
-						"metadata": {
-							"App": "%appDir%"
-						}
+						"translation": "Kdyby\\Translation\\DI\\TranslationExtension"
 					}
 				}
 			}
 		}
 	],
+	"kdyby/validator": [
+		{
+			"version": "*",
+			"metadata": {
+				"configuration": {
+					"extensions": {
+						"validator": "Kdyby\\Validator\\DI\\ValidatorExtension"
+					}
+				}
+			}
+		}
+	],
+	"nette/nette": [
+		{
+			"version": "*",
+			"metadata": {
+				"relativePublicPath": "/client-side"
+			}
+		}
+	],
 	"o5/grido": [
 		{
-			"versions": ["1.0.5"],
+			"version": "*",
 			"metadata": {
 				"relativePublicPath": "/client-side"
 			}
