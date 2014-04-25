@@ -35,6 +35,18 @@
 			}
 		}
 	],
+	"kdyby/doctrine-forms": [
+		{
+			"version": "*",
+			"metadata": {
+				"configuration": {
+					"extensions": {
+						"doctrine": "Kdyby\\DoctrineForms\\DI\\FormsExtension"
+					}
+				}
+			}
+		}
+	],
 	"kdyby/events": [
 		{
 			"version": "*",
