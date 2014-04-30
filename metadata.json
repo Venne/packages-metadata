@@ -59,6 +59,18 @@
 			}
 		}
 	],
+	"kdyby/forms-replicator": [
+		{
+			"version": "*",
+			"metadata": {
+				"configuration": {
+					"extensions": {
+						"replicator": "Kdyby\\Replicator\\DI\\ReplicatorExtension"
+					}
+				}
+			}
+		}
+	],
 	"kdyby/translation": [
 		{
 			"version": "*",
