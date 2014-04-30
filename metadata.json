@@ -41,7 +41,7 @@
 			"metadata": {
 				"configuration": {
 					"extensions": {
-						"doctrine": "Kdyby\\DoctrineForms\\DI\\FormsExtension"
+						"doctrineForms": "Kdyby\\DoctrineForms\\DI\\FormsExtension"
 					}
 				}
 			}
