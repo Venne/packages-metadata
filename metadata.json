@@ -110,5 +110,18 @@
 				"relativePublicPath": "/client-side"
 			}
 		}
+	],
+	"vojtech-dobes/nette-ajax-history": [
+		{
+			"version": "*",
+			"metadata": {
+				"relativePublicPath": "/client-side",
+				"configuration": {
+					"extensions": {
+						"ajaxHistory": "VojtechDobes\\NetteAjax\\HistoryExtension"
+					}
+				}
+			}
+		}
 	]
 } 
